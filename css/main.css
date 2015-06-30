@@ -1,0 +1,38 @@
+
+
+.heightCustomTopo{
+    padding-top: 1em;
+    height: 56px;
+    /*border: dotted 1px;*/
+}
+
+.larguraBarraMenu{
+
+    width: 100%;
+    /*border: solid 1px;*/
+    background-color: #4188f2;
+}
+
+.linkMenu{
+
+    color: #ffffff;
+
+}
+
+body{
+
+    background-color: #e5e5e5;
+}
+
+.corFundoArea{
+
+    background-color: #ffffff;
+}
+
+.heightCustomBottom{
+
+    height: 80px;
+    padding-top: 2em;
+    background-color: #4188f2;
+
+}

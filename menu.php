@@ -5,7 +5,7 @@
     <div class="heightCustomTopo">
 
         <div class="pull-left">
-            <a href="#"><p class="linkMenu">PROJETO FASE 1</p></a>
+            <a href="home"><p class="linkMenu">PROJETO FASE 1</p></a>
         </div>
         <ul class="list-inline pull-right">
             <li><a href="home"><p class="linkMenu"> Home</p></a></li>

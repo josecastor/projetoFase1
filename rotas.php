@@ -1,17 +1,24 @@
 <?php
 
+    function rota(){
 
-    $rotas = ["home","empresa","produtos","servicos","contato"];
-    $rota = trim(parse_url(filter_input(INPUT_SERVER,'REQUEST_URI'),PHP_URL_PATH),'/');
 
-    if (($rota == "") or (!file_exists($rota.".php")) or (!in_array($rota,$rotas))){
+        $rotas = ["home","empresa","produtos","servicos","contato"];
+        $rota = trim(parse_url(filter_input(INPUT_SERVER,'REQUEST_URI'),PHP_URL_PATH),'/');
 
-        $rota = "home";
 
-    }else{
+        if (($rota == "") or (!file_exists($rota.".php")) or (!in_array($rota,$rotas))){
 
-        $rota;
+            return "erro.php";
+
+        }else{
+
+            return $rota.".php";
+
+        }
+
 
     }
+
 
 ?>

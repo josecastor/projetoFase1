@@ -32,7 +32,7 @@
     <div class="container corFundoArea">
         <div class="row">
             <div class="col-md-12">
-                <?php require_once($rota.".php"); ?>
+                <?php require_once(rota()); ?>
             </div>
         </div>
     </div>

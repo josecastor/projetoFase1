@@ -3,7 +3,7 @@
     function rota(){
 
 
-        $rotas = ["home","empresa","produtos","servicos","contato"];
+        $rotas = ["home","empresa","produtos","servicos","contato","conexao"];
         $rota = trim(parse_url(filter_input(INPUT_SERVER,'REQUEST_URI'),PHP_URL_PATH),'/');
 
 

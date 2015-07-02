@@ -5,6 +5,17 @@
     <h3><strong>Dúvidas ... </strong></h3>
 
     <p class="text-justify well">
+
+        <br><br>
+
+        Não entendi como fazer isso dinamicamente com relação ao status usando a função var_dump(http_response_code());
+        <br><br>
+        Antes de enviar essa versão eu tinha testado usando essa função do PHP mas sempre tinha como retorno o status 200, pois eu acabo redirecionando.
+        <br><br>
+        O que você que, é simplesmente exibir o status na pagina do erro ?
+
+
+        <!--
         Wesley essa e a primeira versão do prototipo do projeto, tentei implementar essa versão como se fosse um site mesmo.
 
         <br><br>
@@ -40,7 +51,7 @@
         <br><br>
 
         Faça toda crítica necessária, pois vou de fato realizar um projeto particular em paralelo ao curso e aqui vai ser a base de conhecimento para execução do mesmo.
-
+        -->
 
     </p>
 

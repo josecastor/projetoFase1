@@ -1,4 +1,4 @@
 <div>
-    <h1> PAGINA DE ERRO STATUS <?php var_dump(http_response_code()); ?> VOLTE PARA O INICIO ATRAVES DO LINK ABAIXO</h1>
+    <h1> STATUS <?php echo http_response_code(404); ?> </h1>
     <h3><a href="home"><p>Home</p></a></li></h3>
 </div>
